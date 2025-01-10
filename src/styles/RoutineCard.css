@@ -1,0 +1,27 @@
+.routine-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.routine-card h2 {
+  color: #2c3e50;
+}
+
+.routine-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.routine-card li {
+  margin: 8px 0;
+}
+
+.routine-card strong {
+  color: #2980b9;
+}
+
+  

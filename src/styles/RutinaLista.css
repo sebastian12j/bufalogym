@@ -1,0 +1,107 @@
+/* RutinaLista.css */
+.rutina-detalle {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rutina-detalle h2 {
+  color: #333;
+}
+
+.rutina-detalle img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.rutina-detalle p {
+  color: #666;
+}
+
+.rutina-detalle a {
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.rutina-detalle a:hover {
+  text-decoration: underline;
+}
+
+.exercise-header {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.exercise-header:hover {
+  background: #eaeaea;
+}
+
+.sets-list {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.sets-list li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.sets-list label {
+  display: flex;
+  align-items: center;
+}
+
+.sets-list input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-modal {
+  background: #222;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-top: 1rem;
+  background-color: #00ffff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #00cccc;
+}

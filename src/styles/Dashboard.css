@@ -1,0 +1,111 @@
+/* Dashboard.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #053c76f6;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.subtitle-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.subtitle-container h2 {
+  margin: 0 20px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.subtitle-container h2.active {
+  color: #f7f7f7;
+  border-bottom: 2px solid #007bff;
+}
+
+.card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+}
+
+.card {
+  background: #0d1451;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  max-width: 300px;
+  text-align: left;
+  position: relative; /* Permite posicionar elementos internamente */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img.card-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.duration {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.chip-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.chip {
+  background-color: #e0e0e0;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.chip:hover {
+  background-color: #d0d0d0;
+}
+
+.chip.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card p {
+  margin: 0;
+  color: #666;
+}
+
+.card h4 {
+  margin-top: 10px;
+}

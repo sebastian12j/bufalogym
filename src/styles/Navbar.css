@@ -1,0 +1,50 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .navbar-right {
+    position: relative;
+  }
+  
+  .notification-bell {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .usuario-container {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background: #fff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 100;
+  }
+  
