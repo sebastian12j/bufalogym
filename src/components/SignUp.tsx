@@ -44,7 +44,7 @@ const SignUp: React.FC = () => {
   return (
     <div className="auth-container">
       <div className="auth-content">
-        <img src="../public/bufaloLogo.png" alt="Buffalo Logo" />
+        <img src="https://res.cloudinary.com/dzubhlegp/image/upload/v1736810929/bufaloLogo_ltfnqu.png" alt="Buffalo Logo" />
         <h1>Sign Up</h1>
         <input
           type="text"
@@ -77,10 +77,10 @@ const SignUp: React.FC = () => {
         <button onClick={handleSignUp}>Sign Up</button>
         <div className="social-login">
           <button className="social-button" onClick={handleGoogleSignIn}>
-            <img src="../public/google.png" alt="Google Sign Up" className="social-icon" />
+            <img src="https://res.cloudinary.com/dzubhlegp/image/upload/v1736810929/google_xmwd1g.png" alt="Google Sign Up" className="social-icon" />
           </button>
           <button className="social-button" onClick={handleFacebookSignIn}>
-            <img src="../public/facebook.png" alt="Facebook Sign Up" className="social-icon" />
+            <img src="https://res.cloudinary.com/dzubhlegp/image/upload/v1736810929/facebook_b1v41t.png" alt="Facebook Sign Up" className="social-icon" />
           </button>
         </div>
       </div>

@@ -77,10 +77,10 @@ const SignIn: React.FC = () => {
         <button onClick={handleSignIn}>Sign In</button>
         <div className="social-login">
           <button className="social-button" onClick={handleGoogleSignIn}>
-            <img src="../public/google.png" alt="Google Sign In" className="social-icon" />
+            <img src="https://res.cloudinary.com/dzubhlegp/image/upload/v1736810929/google_xmwd1g.png" alt="Google Sign In" className="social-icon" />
           </button>
           <button className="social-button" onClick={handleFacebookSignIn}>
-            <img src="../public/facebook.png" alt="Facebook Sign In" className="social-icon" />
+            <img src="https://res.cloudinary.com/dzubhlegp/image/upload/v1736810929/facebook_b1v41t.png" alt="Facebook Sign In" className="social-icon" />
           </button>
         </div>
         <p>

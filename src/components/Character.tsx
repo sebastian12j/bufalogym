@@ -5,7 +5,7 @@ const Character: React.FC = () => {
   return (
     <div className="screen-container">
       <div className="content">
-        <img src="../public/logoworkout.png" alt="Character" className="image" />
+        <img src="https://res.cloudinary.com/dzubhlegp/image/upload/v1736810929/logocharacter_srkark.png" alt="Character" className="image" />
         <h1 className="title">Character</h1>
         <p className="description">Cultivate in you an iron character for training.</p>
         <button className="registration-button" onClick={() => window.location.href = '/signin'}>Registration</button>
