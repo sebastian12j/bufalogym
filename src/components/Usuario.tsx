@@ -5,7 +5,7 @@ import { RootState } from '../redux/store';
 import { setUser } from '../slices/userSlice';
 import '../styles/Usuario.css';
 import Navbar from './Navbar';
-import Activity from './Activity';
+
 
 const Usuario: React.FC = () => {
   const user = useSelector((state: RootState) => state.user);

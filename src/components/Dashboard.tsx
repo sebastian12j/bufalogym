@@ -4,7 +4,7 @@ import { collection, getDocs } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
 import '../styles/Dashboard.css';
 import Navbar from "./Navbar";
-import Usuario from './Usuario';
+
 import WarmUpCard from './WarmUpCard';
 
 // Importa las imágenes locales
@@ -42,7 +42,7 @@ const Dashboard: React.FC = () => {
   const [activeView, setActiveView] = useState<'discover' | 'myworkouts'>('discover');
   const [selectedMuscle, setSelectedMuscle] = useState<string | null>(null);
   const [showRoutine, setShowRoutine] = useState(false);
-  const [activity, setActivity] = useState<any[]>([]);
+  const [] = useState<any[]>([]);
   const navigate = useNavigate();
 
   useEffect(() => {
