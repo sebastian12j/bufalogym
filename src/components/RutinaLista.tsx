@@ -41,7 +41,7 @@ const RutinaLista: React.FC = () => {
 
   useEffect(() => {
     return () => {
-      if (intervalId) clearInterval(intervalId); // Limpiar el intervalo al desmontar el componente
+      if (intervalId) clearInterval(intervalId as NodeJS.Timeout); // Limpiar el intervalo al desmontar el componente
     };
   }, [intervalId]);
 
@@ -58,7 +58,7 @@ const RutinaLista: React.FC = () => {
   };
 
   const handleFinishSet = () => {
-    if (intervalId) clearInterval(intervalId);
+    if (intervalId) clearInterval(intervalId as NodeJS.Timeout);
 
     setCompletedSets(prev => {
       const updated = { ...prev };
