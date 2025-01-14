@@ -12,7 +12,7 @@ const Welcome: React.FC = () => {
   return (
     <div className="welcome-container" onClick={handleClick}>
       <div className="welcome-content">
-        <img src="../public/bufaloLogo.png" alt="Buffalo Logo" className="logo" />
+        <img src="https://res.cloudinary.com/dzubhlegp/image/upload/v1736810929/bufaloLogo_ltfnqu.png" alt="Buffalo Logo" className="logo" />
         <h1 className="app-name">Buffalo</h1>
       </div>
     </div>
