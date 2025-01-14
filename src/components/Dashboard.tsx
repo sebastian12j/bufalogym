@@ -4,7 +4,6 @@ import { collection, getDocs } from "firebase/firestore";
 import { useNavigate, useLocation } from "react-router-dom";
 import '../styles/Dashboard.css';
 import Navbar from "./Navbar";
-import Usuario from './Usuario';
 import WarmUpCard from './WarmUpCard';
 
 // Importa las imágenes locales
@@ -42,7 +41,6 @@ const Dashboard: React.FC = () => {
   const [activeView, setActiveView] = useState<'discover' | 'myworkouts'>('discover');
   const [selectedMuscle, setSelectedMuscle] = useState<string | null>(null);
   const [showRoutine, setShowRoutine] = useState(false);
-  const [activity, setActivity] = useState<any[]>([]);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -98,12 +96,6 @@ const Dashboard: React.FC = () => {
 
     fetchData();
   }, []);
-
-  useEffect(() => {
-    if (location.state && location.state.actividad) {
-      setActivity((prevActivity) => [...prevActivity, location.state.actividad]);
-    }
-  }, [location.state]);
 
   const handleViewChange = (view: 'discover' | 'myworkouts') => {
     setActiveView(view);
@@ -223,6 +215,7 @@ const Dashboard: React.FC = () => {
 };
 
 export default Dashboard;
+
 
 
 
